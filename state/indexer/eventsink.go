@@ -11,9 +11,10 @@ import (
 type EventSinkType string
 
 const (
-	NULL EventSinkType = "null"
-	KV   EventSinkType = "kv"
-	PSQL EventSinkType = "psql"
+	NULL     EventSinkType = "null"
+	KV       EventSinkType = "kv"
+	PSQL     EventSinkType = "psql"
+	CONSUMER EventSinkType = "consumer"
 )
 
 // EventSink interface is defined the APIs for the IndexerService to interact with the data store,
